@@ -65,7 +65,7 @@
 	border-color: rgb(241, 241, 241);
 	position: relative;
 	left: 5px;
-	height: 24.2px;
+	height: 25.3px;
 	width: 105%;
 	padding: 5px;
 	border-radius: 5px;
@@ -280,8 +280,13 @@
 	  border: 3px solid black;
 	  height: 85px;
 	}
-	.badge .creator, .badge .myName{
+	.badge .creator{
 	  color:black;
+	  top: -60px;
+	}
+	.badge .myName{
+		color:black;
+		top: -80px;
 	}
 	.badge .buylist{
 	  visibility: hidden;
