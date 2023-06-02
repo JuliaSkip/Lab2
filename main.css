@@ -75,7 +75,7 @@
 	color: rgb(219, 214, 214);
 }
 
-#addButton{
+.addButton{
 	background-color: rgb(82, 138, 215);
 	border: none;
 	border-bottom: 0.3rem solid rgb(72, 116, 176);
@@ -162,11 +162,11 @@
 	text-align: center;
 }
 
-#boughtButton{
+.boughtButton{
 	border: none;
 	border-bottom: solid lightgray;
 	height: 35px;
-	width: 60%;
+	width: 63%;
 	padding: 2%;
 	border-radius: 5px;
 	text-align: center;
