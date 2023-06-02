@@ -14,7 +14,7 @@
     
     <section class="headline">
         <input type="text" class="goodsName" placeholder="Назва товару"/>
-        <button class="tooltip" id="addButton" data-tooltip="Add" style="color: white;" ><b>Додати</b></button>
+        <button class="tooltip addButton"  data-tooltip="Add" style="color: white;" ><b>Додати</b></button>
     </section>
     <hr>
 
@@ -26,7 +26,7 @@
             <span class="addGoods" style="visibility: hidden">+</span>
         </section>
         <section class="Bblock">
-           <button id="boughtButton" class="tooltip" data-tooltip="Not Bought">Не куплено</button>
+           <button  class="tooltip boughtButton" data-tooltip="Not Bought">Не куплено</button>
         </section>
     </section>
     <hr>
@@ -34,19 +34,13 @@
     <section class="line">
         <section class="block"> Печиво</section>
        <section class="block"> 
-        <div class="canRemove">
-            <span class="tooltip" data-tooltip="Remove" style="color: white;"><b>-</b></span>
-        </div>
+            <span class="tooltip canRemove" data-tooltip="Remove" style="color: white;"><b>-</b></span>
            <span class="goods">2</span>
-        <div class="addGoods">
-            <span class="tooltip" data-tooltip="Add" style="color: white;"><b>+</b></span>
-        </div>
+            <span class="tooltip addGoods" data-tooltip="Add" style="color: white;"><b>+</b></span>
        </section>
        <section class="Bblock">
-        <button id="boughtButton" class="tooltip" data-tooltip="Bought">Куплено</button>
-           <div class="cross">
-               <span class="tooltip" data-tooltip="Delete" style="color: white;"><b>⨯</b></span>
-           </div>
+        <button class="tooltip boughtButton" data-tooltip="Bought">Куплено</button>
+        <span class="tooltip cross" data-tooltip="Delete" style="color: white;"><b>⨯</b></span>
        </section>
     </section>
     <hr>
@@ -56,19 +50,13 @@
            <input type="text" class="cheese" placeholder="Сир">
         </section>
         <section class="block">
-            <div class="cantRemove">
-                <span class="tooltip" data-tooltip="Remove" style="color: white;"><b>-</b></span>
-            </div>
+            <span class="tooltip cantRemove" data-tooltip="Remove" style="color: white;"><b>-</b></span>
             <span class="goods">1</span>
-            <div class="addGoods">
-                <span class="tooltip" data-tooltip="Add" style="color: white;"><b>+</b></span>
-            </div>
+            <span class="tooltip addGoods" data-tooltip="Add" style="color: white;"><b>+</b></span>
        </section>
        <section class="Bblock">
-        <button id="boughtButton" class="tooltip" data-tooltip="Bought">Куплено</button>
-           <div class="cross">
-               <span class="tooltip" data-tooltip="Delete" style="color: white;"><b>⨯</b></span>
-           </div>
+        <button class="tooltip boughtButton" data-tooltip="Bought">Куплено</button>
+            <span class="tooltip cross" data-tooltip="Delete" style="color: white;"><b>⨯</b></span>
        </section>
     </section>
 
