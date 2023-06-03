@@ -4,16 +4,16 @@
 
 .first{
 	background-color: white;
-    padding: 10px;
+    margin: 10px;
     border-radius: 5px;
-    height: 210px;
+    height: 220px;
 	position: relative;
 	width: 60%;
 }
 
 .second {
 	background-color: white;
-	padding: 10px;
+	margin: 10px;
 	border-radius: 5px;
 	height: 225px;
 	width: 30%;
@@ -35,6 +35,10 @@
 	.first{
 		width: 95%;
 	}
+	.line{
+		position: relative;
+		right: 20px;
+	}
 }
 
 .line{
@@ -42,6 +46,8 @@
 	justify-content: space-between;
 	align-items: center;
 	width: 100%;
+	position: relative;
+	left: -10px;
 }
 
 .headline{
@@ -56,7 +62,7 @@
 	width: 100%;
 	height: 50px;
 	position: relative;
-	top: 10px;
+	top: 15px;
 }
 
 .goodsName{
@@ -80,10 +86,10 @@
 	border: none;
 	border-bottom: 0.3rem solid rgb(72, 116, 176);
 	position: relative;
-	left: -5px; top: -1px;
-	height: 37.65px;
+	left: -5px; top:-0.5px;
+	height: 38px;
 	width: 20%;
-	padding: 5px;
+	padding: 0.5%;
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
 	font-size: medium;
@@ -190,6 +196,8 @@
 	height: 25px;
 	padding: 1%;
 	border-radius: 5px;
+	position: relative;
+	left: 5px; top:-5px;
 }
 
 .amount {
@@ -298,11 +306,13 @@
 	height: 20px;
 	position: relative;
 	top: -15px;
+	left: 5px;
   }
   .boughtText{
 	height: 20px;
 	position: relative;
 	top: -10px;
+	left: 5px;
   }
 
   .tomatoes{
